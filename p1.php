@@ -17,7 +17,7 @@
             echo 'erro';
         } else {
             while ($reg=$busca->fetch_object()){
-                echo "<img src='$reg->imagem' width='250'> <br> <h3>$reg->nome</h3> <h4>$reg->preço</h4> <p>$reg->especificações</p>";
+                echo "<img src='$reg->imagem' width='250'> <br> <h3>$reg->nome</h3> <h4>R$$reg->preço</h4> <p>$reg->especificações</p>";
             }
         }
     }
