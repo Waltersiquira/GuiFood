@@ -6,6 +6,7 @@
     <title>GuiFood</title>
 </head>
 <body>
+    <button><a href="p3.php" style="text-decoration: none;">adcionar comida</a></button>
     <?php require_once 'includes/lojas.php' ?>
     <h1>GuiFood</h1>
     <hr>
